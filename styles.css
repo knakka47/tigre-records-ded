@@ -1,6 +1,34 @@
-:root{
+:root {
     --primary-color: #0a1118;
     --primary-color: #233D54;
     --bs-body-bg: #FBF0F6;
     --bs-body-font-family: 'Montserrat', sans-serif;
+}
+
+
+/*
+Main Header
+*/
+.header {
+    z-index: 2;
+}
+
+/*
+Navigation Bar
+*/
+#navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(255, 247, 231);
+    z-index: 4;
+}
+
+.dropdown-nav__closeNavBtn {
+    position: absolute;
+    top: 20px;
+    right: 16px;
+    background-color: rbg(255, 255, 255, 0.6);
 }
