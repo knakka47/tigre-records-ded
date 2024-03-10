@@ -5,6 +5,13 @@
     --bs-body-font-family: 'Montserrat', sans-serif;
 }
 
+a {
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--primary-color);
+}
 
 /*
 Main Header
@@ -31,4 +38,20 @@ Navigation Bar
     top: 20px;
     right: 16px;
     background-color: rbg(255, 255, 255, 0.6);
+}
+
+.dropdown-nav__container {
+    height: 100vh;
+    padding: 0 1rem;
+}
+
+/*
+Hero Section
+*/
+
+.hero{
+    position: relative;
+    height: 100vh;
+    background-color: var(--primary-color);
+    overflow: hidden;
 }

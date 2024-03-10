@@ -27,7 +27,7 @@
 <body>
 
     <!-- Header -->
-    <header class="header p-3 position-absolute start-0 top-0 end-0" style="background-color: black;">
+    <header class="header p-3 position-absolute start-0 top-0 end-0">
         <div class="d-flex justify-content-between align-items-center">
             <a href="/" class="text-decoration-none text-white fs-5 fw-bold">Tigre Records</a>
             <div>
@@ -44,34 +44,82 @@
         </div>
     </header>
 
+    <!-- Dropdown Navigation -->
     <nav class="collapse navbar-collapse dropdown-nav" id="navbar">
-        <ul>
-            <li>
-                <a href="#">Link 1</a>
-            </li>
-            <li>
-                <a href="#">Link 1</a>
-            </li>
-            <li>
-                <a href="#">Link 1</a>
-            </li>
-            <li>
-                <a href="#">Link 1</a>
-            </li>
-            <li>
-                <a href="#">Link 1</a>
-            </li>
-        </ul>
+        <div class="dropdown-nav__container container-xxl d-flex align-items-start align-items-md-center">
 
-        <button class="navbar-toggler dropdown-nav__closeNavBtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
-            aria-controls="#navbar" aria-expanded="false" aria-label="Toggle navigation">
-            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
-                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
-                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
-              </svg>
-        </button>
+            <div class="row align-items-start">
+                <div class="col-12 col-sm-4 mt-4">
 
+                    <a href="#" class="row text-decoration-none">
+                        <div class="col-2 col-sm-12 mb-4">
+                            <img src="img/1-coffe-flavour.jpg" alt="Coffee Flavor" class="img-fluid" width="553"
+                                height="746">
+                        </div>
+
+                        <div class="col-10">
+                            <h3>Amazing Flavor</h3>
+                            <p>Find out more about our amazing flavour</p>
+                            <p>Learn more <i class="bi bi-arrow-right-short"></i></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-4 mt-4">
+
+                    <a href="#" class="row text-decoration-none">
+                        <div class="col-2 col-sm-12 mb-4">
+                            <img src="img/1-coffe-flavour.jpg" alt="Coffee Flavor" class="img-fluid" width="553"
+                                height="746">
+                        </div>
+
+                        <div class="col-10">
+                            <h3>Amazing Flavor</h3>
+                            <p>Find out more about our amazing flavour</p>
+                            <p>Learn more <i class="bi bi-arrow-right-short"></i></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-4 mt-4">
+
+                    <a href="#" class="row text-decoration-none">
+                        <div class="col-2 col-sm-12 mb-4">
+                            <img src="img/1-coffe-flavour.jpg" alt="Coffee Flavor" class="img-fluid" width="553"
+                                height="746">
+                        </div>
+
+                        <div class="col-10">
+                            <h3>Amazing Flavor</h3>
+                            <p>Find out more about our amazing flavour</p>
+                            <p>Learn more <i class="bi bi-arrow-right-short"></i></p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+            <button class="navbar-toggler dropdown-nav__closeNavBtn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar" aria-controls="#navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
+                    class="bi bi-x-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                    <path
+                        d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+                </svg>
+            </button>
+
+        </div>
     </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" loading="lazy"
+            class="hero__video">
+            <source src="img/4-video-test.mp4" type="video/mp4">
+        </video>
+
+    </section>
+
 
     <!-- Test Container -->
     <div class="container">
